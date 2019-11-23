@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/github/Malte3/abstract-generator/blob/master/abstract-generator.ipynb)
+
 # Paper Abstract Generator by a Sequence to Sequence Network [WIP]
 
 This repository contains code for in-progress implementations and experiments for generating paper abstracts from data downloaded from the open access electronic preprint database [arXiv](https://arxiv.org/).
