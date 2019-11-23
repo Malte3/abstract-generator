@@ -46,7 +46,7 @@ class PaperAbstractDataset(torchtext.data.Dataset):
             test splits in that order, if provided.
         """
 
-         # initialize text filed
+         # initialize text field
         text_field = torchtext.data.Field(tokenize=get_tokenizer("spacy"), init_token='<sos>', eos_token='<eos>', lower=True)
         fields = [('abstract', text_field), ('paper', text_field)]
         examples = []
