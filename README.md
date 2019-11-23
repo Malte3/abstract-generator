@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/github/Malte3/abstract-generator/blob/master/abstract-generator.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Malte3/abstract-generator/blob/master/abstract-generator.ipynb)
 
 # Paper Abstract Generator by a Sequence to Sequence Network [WIP]
 
