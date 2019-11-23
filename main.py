@@ -226,8 +226,6 @@ def trainIters(encoder, decoder, epochs, print_every=1000, plot_every=100, learn
             plot_losses.append(plot_loss_avg)
             plot_loss_total = 0
 
-plt.switch_backend('agg')
-
 def evaluate(encoder, decoder, sentence, max_length=MAX_LENGTH):
     with torch.no_grad():
         input_tensor = sentence
